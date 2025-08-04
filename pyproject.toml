@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "claude-token-counter"
+version = "1.0.0"
+description = "A comprehensive Python application to track token usage and costs from Claude CLI sessions with real-time monitoring capabilities."
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Brayan Torres", email = "brayantcwork@gmail.com"}
+]
+keywords = ["claude", "anthropic", "tokens", "monitoring", "cli", "tui"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Environment :: Console :: Curses",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: MacOS",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: System :: Monitoring",
+    "Topic :: Terminals",
+    "Topic :: Utilities",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "textual>=0.50.0",
+    "rich>=13.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/claude-token-counter"
+Repository = "https://github.com/yourusername/claude-token-counter"
+Issues = "https://github.com/yourusername/claude-token-counter/issues"
+Documentation = "https://github.com/yourusername/claude-token-counter#readme"
+
+[project.scripts]
+claude-tokens = "claude_token_counter.ui.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["claude_token_counter*"]
+
+[tool.setuptools.package-data]
+"claude_token_counter" = ["py.typed"]
