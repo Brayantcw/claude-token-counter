@@ -26,28 +26,28 @@ A comprehensive Python application to track token usage and costs from Claude CL
 
 ## Quick Installation
 
-### **Option 1: One-line Install (Recommended)**
+### **Install from Source** (Recommended)
 ```bash
-curl -sSL https://raw.githubusercontent.com/yourusername/claude-token-counter/main/install.sh | bash
-```
-
-### **Option 2: Using pip**
-```bash
-pip install claude-token-counter
-```
-
-### **Option 3: From Source**
-```bash
-git clone https://github.com/yourusername/claude-token-counter.git
+# Clone the repository
+git clone https://github.com/Brayantcw/claude-token-counter.git
 cd claude-token-counter
+
+# Install the package
 pip install .
 ```
 
-### **Option 4: Development Install**
+### **Development Install**
 ```bash
-git clone https://github.com/yourusername/claude-token-counter.git
+# Clone and install in development mode
+git clone https://github.com/Brayantcw/claude-token-counter.git
 cd claude-token-counter
 pip install -e .
+```
+
+### **One-line Install Script**
+```bash
+# Download and run install script
+curl -sSL https://raw.githubusercontent.com/Brayantcw/claude-token-counter/main/install.sh | bash
 ```
 
 ## Usage

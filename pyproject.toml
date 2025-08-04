@@ -38,10 +38,10 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/claude-token-counter"
-Repository = "https://github.com/yourusername/claude-token-counter"
-Issues = "https://github.com/yourusername/claude-token-counter/issues"
-Documentation = "https://github.com/yourusername/claude-token-counter#readme"
+Homepage = "https://github.com/Brayantcw/claude-token-counter"
+Repository = "https://github.com/Brayantcw/claude-token-counter"
+Issues = "https://github.com/Brayantcw/claude-token-counter/issues"
+Documentation = "https://github.com/Brayantcw/claude-token-counter#readme"
 
 [project.scripts]
 claude-tokens = "claude_token_counter.ui.cli:main"
