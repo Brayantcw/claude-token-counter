@@ -89,12 +89,16 @@ The tool reads Claude CLI session data from `~/.claude/projects/` directory, par
 
 ## Cost Calculation
 
+![CLI Interface](media/base.png)
+
 Uses 2025 Claude API pricing:
 - **Sonnet 4**: $3.00/$15.00 (input/output), $3.75/$0.30 (cache write/read) per 1M tokens
 - **Sonnet 3.5**: $3.00/$15.00 (input/output), $3.75/$0.30 (cache write/read) per 1M tokens  
 - **Opus**: $15.00/$75.00 (input/output), $18.75/$1.50 (cache write/read) per 1M tokens
 
 ## Real-time Monitoring
+
+![Analytics Interface](media/analytics.png)
 
 The **Live Monitor** tab provides:
 - **Activity Status**: Shows current session state and time since last activity
